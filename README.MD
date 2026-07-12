@@ -1,131 +1,57 @@
-# NexeriusMerge Releases
+# Nexerius Suite
 
-Oficiální repozitář pro veřejné vydání aplikace **NexeriusMerge**.
+Oficiální repozitář pro veřejná vydání desktopové aplikace **Nexerius Suite**.
 
-**NexeriusMerge** je desktopová aplikace pro hromadné vytváření PDF dokumentů z připravené PDF šablony a datové tabulky.
+Nexerius Suite pomáhá týmům zvládnout opakovanou administrativu rychleji a s
+větší kontrolou. Běží lokálně na vašem počítači nebo ve firemní síti — citlivá
+data nemusíte posílat do online služby.
 
-Aplikace je určená pro rychlé generování opakovaných dokumentů, například:
+## Hromadné generování PDF
 
-* smluv,
-* formulářů,
-* potvrzení,
-* dopisů,
-* dokumentů pro klienty,
-* personalizovaných PDF souborů.
+**Z jedné tabulky hotové PDF dokumenty během minut.**
 
----
+Načtete vlastní PDF šablonu a data z Excelu nebo CSV, jednou umístíte pole a
+stáhnete hotové dokumenty — jednotlivě nebo v jednom ZIPu. Hodí se například
+pro smlouvy, dodatky, potvrzení, certifikáty, formuláře a další opakovanou
+administrativu.
 
-## Stažení aplikace
+Součástí aplikace je i rychlé sloučení hotových PDF do jednoho souboru.
 
-Nejnovější verzi aplikace najdete v sekci:
+## Nexerius Agentura
 
-**Releases**
-https://github.com/Nexerius/nexerius-merge-releases/releases
+**Každý pracovní případ, chybějící podklad i blížící se termín na jednom místě.**
 
-Stáhněte instalační soubor nebo archiv z posledního vydání.
+Agentura dává týmům přehled nad pracovními případy, povinnými podklady a
+navazujícími termíny. Vidíte priority, jasný další krok u každého případu a
+připravíte podklady i přehledný report pro poradu.
 
----
+Je určená zejména pro personální a pracovní agentury a týmy, které zajišťují
+nástupy, dokumentaci pracovníků, prodloužení pobytů nebo související agendu.
 
-## Jak aplikace funguje
+## Stažení a instalace
 
-Základní postup práce:
+Aktuální verzi najdete v sekci [Releases](https://github.com/Argellius/nexerius-merge-releases/releases).
 
-1. Nahrajete připravenou PDF šablonu.
-2. Nahrajete datovou tabulku ve formátu CSV nebo Excel.
-3. Propojíte pole v šabloně se sloupci v tabulce.
-4. Aplikace automaticky vygeneruje samostatné PDF dokumenty pro jednotlivé řádky.
-5. Výsledné soubory uložíte do vybrané složky.
+1. Stáhněte instalační soubor pro Windows.
+2. Spusťte jej a dokončete instalaci.
+3. Otevřete Nexerius Suite.
 
----
+Při prvním spuštění instalátoru může Windows zobrazit upozornění Microsoft
+Defender SmartScreen. U nové aplikace bez OS certifikátu je to běžné: zvolte
+**Další informace** a potom **Přesto spustit**.
 
-## Soukromí a zpracování dat
+## Soukromí a aktualizace
 
-NexeriusMerge běží lokálně na vašem počítači.
+PDF šablony, tabulky, údaje pracovníků i vytvořené dokumenty zůstávají na
+vašem zařízení. Nexerius Suite není cloudová služba.
 
-To znamená:
-
-* vaše PDF šablony se nikam neodesílají,
-* vaše tabulky se nikam neodesílají,
-* generování dokumentů probíhá lokálně,
-* výsledné PDF soubory zůstávají pouze ve vašem zařízení.
-
-Aplikace není cloudová služba a není potřeba nahrávat citlivá data na externí server.
-
----
-
-## Podporované formáty
-
-### Vstupní soubory
-
-* PDF šablona
-* CSV tabulka
-* Excel tabulka
-
-### Výstup
-
-* PDF dokumenty
-
----
-
-## Instalace
-
-### Windows
-
-1. Stáhněte nejnovější verzi aplikace ze sekce **Releases**.
-2. Spusťte instalační soubor nebo rozbalte archiv.
-3. Otevřete aplikaci **NexeriusMerge**.
-
-Při prvním spuštění může Windows zobrazit upozornění **Microsoft Defender SmartScreen**.
-To se může stát u nových aplikací, které ještě nemají dostatečnou reputaci u Microsoftu.
-
-V takovém případě zvolte:
-
-1. **Další informace**
-2. **Přesto spustit**
-
----
-
-## Aktualizace
-
-Nové verze aplikace jsou publikovány v tomto repozitáři v sekci **Releases**.
-
-Doporučený postup aktualizace:
-
-1. Stáhněte nejnovější verzi.
-2. Ukončete starou verzi aplikace.
-3. Nainstalujte nebo spusťte novou verzi.
-
----
-
-## Licence
-
-Používání aplikace NexeriusMerge může být omezeno licencí.
-
-Bez platné licence nemusí být dostupné všechny funkce aplikace.
-
-Licence je vázaná na podmínky poskytované společností Nexerius.
-
----
-
-## Zdrojový kód
-
-Tento repozitář slouží pouze pro distribuci veřejných vydání aplikace.
-
-Zdrojový kód aplikace není součástí tohoto repozitáře.
-
----
+Aplikace při spuštění bezpečně ověří dostupnost nové verze. Pokud je aktualizace
+k dispozici, stáhne ji z tohoto repozitáře a ověří její podpis.
 
 ## Podpora
 
-V případě problémů, dotazů nebo požadavků na úpravy kontaktujte Nexerius.
+Web: [nexerius.cz](https://nexerius.cz)
 
-Web: https://nexerius.cz
 E-mail: [info@nexerius.cz](mailto:info@nexerius.cz)
 
----
-
-## O společnosti Nexerius
-
-**Nexerius** je technologická společnost zaměřená na vývoj softwaru, automatizaci a praktická digitální řešení pro firmy.
-
-Cílem NexeriusMerge je zjednodušit opakovanou administrativní práci a ušetřit čas při vytváření velkého množství PDF dokumentů.
+Zdrojový kód aplikace není součástí tohoto distribučního repozitáře.
